@@ -32,7 +32,7 @@ WHERE `period` = 'I semestre' AND `year` = '1';
 
 SELECT * 
 FROM `exams` 
-WHERE TIME(`hour`) >= '14:00:00';
+WHERE `date` = '2020-06-20' AND TIME(`hour`) >= '14:00:00';
 
 
 6. Selezionare tutti i corsi di laurea magistrale (38)
